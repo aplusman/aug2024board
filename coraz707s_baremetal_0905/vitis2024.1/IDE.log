@@ -1,0 +1,106 @@
+05:54:24 DEBUG : Logs will be stored at '/home/david/r09522848/vitis2024/IDE.log'.
+05:54:35 INFO  : Launching XSCT server: xsct -n  -interactive /home/david/r09522848/vitis2024/temp_xsdb_launch_script.tcl
+05:54:35 INFO  : Registering command handlers for Vitis TCF services
+05:54:36 INFO  : Platform repository initialization has completed.
+05:54:40 INFO  : XSCT server has started successfully.
+05:54:40 INFO  : Successfully done setting XSCT server connection channel  
+05:54:40 INFO  : plnx-install-location is set to ''
+05:54:40 INFO  : Successfully done setting workspace for the tool. 
+05:54:40 INFO  : Successfully done query RDI_DATADIR 
+05:56:09 INFO  : Saving repository preferences.
+05:56:09 INFO  : plnx-install-location is set to ''
+05:59:06 INFO  : Result from executing command 'getProjects': design_1_wrapper
+05:59:06 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202410_1|/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu102_base_202410_1/xilinx_zcu102_base_202410_1.xpfm;xilinx_zcu102_base_dfx_202410_1|/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu102_base_dfx_202410_1/xilinx_zcu102_base_dfx_202410_1.xpfm;xilinx_zcu104_base_202410_1|/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu104_base_202410_1/xilinx_zcu104_base_202410_1.xpfm
+05:59:06 WARN  : An unexpected exception occurred in the module 'platform project logging'
+05:59:07 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+05:59:23 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+06:00:52 DEBUG : Logs will be stored at '/home/david/r09522848/vitis2024/IDE.log'.
+06:00:53 INFO  : Launching XSCT server: xsct -n  -interactive /home/david/r09522848/vitis2024/temp_xsdb_launch_script.tcl
+06:00:55 INFO  : Platform repository initialization has completed.
+06:00:57 INFO  : Registering command handlers for Vitis TCF services
+06:00:58 INFO  : XSCT server has started successfully.
+06:00:58 INFO  : plnx-install-location is set to ''
+06:00:58 INFO  : Successfully done setting XSCT server connection channel  
+06:00:58 INFO  : Successfully done query RDI_DATADIR 
+06:00:58 INFO  : Successfully done setting workspace for the tool. 
+06:02:31 DEBUG : Logs will be stored at '/home/david/r09522848/vitis2024/IDE.log'.
+06:02:31 INFO  : Launching XSCT server: xsct -n  -interactive /home/david/r09522848/vitis2024/temp_xsdb_launch_script.tcl
+06:02:33 INFO  : Platform repository initialization has completed.
+06:02:35 INFO  : Registering command handlers for Vitis TCF services
+06:02:37 INFO  : XSCT server has started successfully.
+06:02:37 INFO  : Successfully done setting XSCT server connection channel  
+06:02:37 INFO  : plnx-install-location is set to ''
+06:02:37 INFO  : Successfully done setting workspace for the tool. 
+06:02:37 INFO  : Successfully done query RDI_DATADIR 
+06:04:27 DEBUG : Logs will be stored at '/home/david/r09522848/vitis2024/IDE.log'.
+06:04:28 INFO  : Launching XSCT server: xsct -n  -interactive /home/david/r09522848/vitis2024/temp_xsdb_launch_script.tcl
+06:04:29 INFO  : Platform repository initialization has completed.
+06:04:31 INFO  : Registering command handlers for Vitis TCF services
+06:04:33 INFO  : XSCT server has started successfully.
+06:04:33 INFO  : Successfully done setting XSCT server connection channel  
+06:04:33 INFO  : plnx-install-location is set to ''
+06:04:33 INFO  : Successfully done setting workspace for the tool. 
+06:04:33 INFO  : Successfully done query RDI_DATADIR 
+06:07:06 INFO  : Result from executing command 'getProjects': design_1_wrapper
+06:07:06 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/home/david/r09522848/vitis2024/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_zcu102_base_202410_1|/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu102_base_202410_1/xilinx_zcu102_base_202410_1.xpfm;xilinx_zcu102_base_dfx_202410_1|/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu102_base_dfx_202410_1/xilinx_zcu102_base_dfx_202410_1.xpfm;xilinx_zcu104_base_202410_1|/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu104_base_202410_1/xilinx_zcu104_base_202410_1.xpfm
+06:07:10 INFO  : Checking for BSP changes to sync application flags for project 'coraz707s_baremetal_vitis_0905'...
+06:09:33 INFO  : Checking for BSP changes to sync application flags for project 'coraz707s_baremetal_vitis_0905'...
+06:10:20 INFO  : Checking for BSP changes to sync application flags for project 'coraz707s_baremetal_vitis_0905'...
+06:12:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:12:22 INFO  : Jtag cable 'Digilent Cora Z7 - 7007S 210370BCC92CA' is selected.
+06:12:22 INFO  : 'jtag frequency' command is executed.
+06:12:22 INFO  : Context for 'APU' is selected.
+06:12:22 INFO  : System reset is completed.
+06:12:25 INFO  : 'after 3000' command is executed.
+06:12:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Cora Z7 - 7007S 210370BCC92CA" && level==0 && jtag_device_ctx=="jsn-Cora Z7 - 7007S-210370BCC92CA-13723093-0"}' command is executed.
+06:12:27 INFO  : Device configured successfully with "/home/david/r09522848/vitis2024/coraz707s_baremetal_vitis_0905/_ide/bitstream/design_1_wrapper.bit"
+06:12:27 INFO  : Context for 'APU' is selected.
+06:12:27 INFO  : Hardware design and registers information is loaded from '/home/david/r09522848/vitis2024/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+06:12:27 INFO  : 'configparams force-mem-access 1' command is executed.
+06:12:27 INFO  : Context for 'APU' is selected.
+06:12:27 INFO  : Sourcing of '/home/david/r09522848/vitis2024/coraz707s_baremetal_vitis_0905/_ide/psinit/ps7_init.tcl' is done.
+06:12:27 INFO  : 'ps7_init' command is executed.
+06:12:27 INFO  : 'ps7_post_config' command is executed.
+06:12:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:12:27 INFO  : The application '/home/david/r09522848/vitis2024/coraz707s_baremetal_vitis_0905/Debug/coraz707s_baremetal_vitis_0905.elf' is downloaded to processor 'ps7_cortexa9_0'.
+06:12:27 INFO  : 'configparams force-mem-access 0' command is executed.
+06:12:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Cora Z7 - 7007S 210370BCC92CA" && level==0 && jtag_device_ctx=="jsn-Cora Z7 - 7007S-210370BCC92CA-13723093-0"}
+fpga -file /home/david/r09522848/vitis2024/coraz707s_baremetal_vitis_0905/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/david/r09522848/vitis2024/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/david/r09522848/vitis2024/coraz707s_baremetal_vitis_0905/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/david/r09522848/vitis2024/coraz707s_baremetal_vitis_0905/Debug/coraz707s_baremetal_vitis_0905.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+06:12:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+06:12:27 INFO  : 'con' command is executed.
+06:12:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+06:12:27 INFO  : Launch script is exported to file '/home/david/r09522848/vitis2024/coraz707s_baremetal_vitis_0905_system/_ide/scripts/systemdebugger_coraz707s_baremetal_vitis_0905_system_standalone.tcl'
+06:15:01 INFO  : Disconnected from the channel tcfchan#3.
+06:21:38 DEBUG : Logs will be stored at '/home/david/Downloads/aug2024board/coraz707s/vitis2024.1/IDE.log'.
+06:21:39 INFO  : Launching XSCT server: xsct -n  -interactive /home/david/Downloads/aug2024board/coraz707s/vitis2024.1/temp_xsdb_launch_script.tcl
+06:21:43 INFO  : Platform repository initialization has completed.
+06:21:44 INFO  : Registering command handlers for Vitis TCF services
+06:21:45 INFO  : XSCT server has started successfully.
+06:21:45 INFO  : plnx-install-location is set to ''
+06:21:45 INFO  : Successfully done setting XSCT server connection channel  
+06:21:45 INFO  : Successfully done setting workspace for the tool. 
+06:21:45 INFO  : Successfully done query RDI_DATADIR 
+06:22:30 INFO  : Result from executing command 'getProjects': design_1_wrapper
+06:22:30 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/home/david/r09522848/vitis2024/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_zcu102_base_202410_1|/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu102_base_202410_1/xilinx_zcu102_base_202410_1.xpfm;xilinx_zcu102_base_dfx_202410_1|/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu102_base_dfx_202410_1/xilinx_zcu102_base_dfx_202410_1.xpfm;xilinx_zcu104_base_202410_1|/Xilinx/Vitis/2024.1/base_platforms/xilinx_zcu104_base_202410_1/xilinx_zcu104_base_202410_1.xpfm
+06:22:34 INFO  : Checking for BSP changes to sync application flags for project 'coraz707s_baremetal_vitis_0905'...
