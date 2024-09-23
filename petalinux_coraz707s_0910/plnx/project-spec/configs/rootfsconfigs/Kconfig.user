@@ -1,0 +1,14 @@
+menu "user packages " 
+config app-test-01  
+	 bool "app-test-01"
+	 help
+	
+config gpio-demo  
+	 bool "gpio-demo"
+	 help
+	
+config peekpoke  
+	 bool "peekpoke"
+	 help
+	
+endmenu

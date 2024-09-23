@@ -1,0 +1,28 @@
+../images/
+└── linux
+    ├── BOOT.BIN
+    ├── bootgen.bif
+    ├── boot.scr
+    ├── config
+    ├── image.ub
+    ├── pxelinux.cfg
+    │   └── default
+    ├── rootfs.cpio
+    ├── rootfs.cpio.gz
+    ├── rootfs.cpio.gz.u-boot
+    ├── rootfs.ext4
+    ├── rootfs.jffs2
+    ├── rootfs.manifest
+    ├── rootfs.tar.gz
+    ├── system.bit
+    ├── system.dtb
+    ├── u-boot.bin
+    ├── u-boot-dtb.bin
+    ├── u-boot-dtb.elf
+    ├── u-boot.elf
+    ├── uImage
+    ├── vmlinux
+    ├── zImage
+    └── zynq_fsbl.elf
+
+2 directories, 23 files
