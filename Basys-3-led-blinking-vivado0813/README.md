@@ -2,7 +2,8 @@
 
 ```
 source /tools/Xilinx/Vivado/2024.1/settings64.sh
-vivado
+export PARALLEL=5 && vivado &
+source ./main.tcl
 ```
 
 # source
