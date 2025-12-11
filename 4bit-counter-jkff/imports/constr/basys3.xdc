@@ -27,7 +27,7 @@ create_clock -period 10.000 -name clk_pin -waveform {0.000 5.000} -add [get_port
 #################################################
 
 # 1st SW
-set_property PACKAGE_PIN V17 [get_ports rst_n]					
+set_property PACKAGE_PIN V17 [get_ports rst_n]
 set_property IOSTANDARD LVCMOS33 [get_ports rst_n]
 
 #################################################
@@ -37,7 +37,7 @@ set_property IOSTANDARD LVCMOS33 [get_ports rst_n]
 #################################################
 
 # Center Button
-set_property PACKAGE_PIN U18 [get_ports enable]						
+set_property PACKAGE_PIN U18 [get_ports enable]
 set_property IOSTANDARD LVCMOS33 [get_ports enable]
 
 #################################################
@@ -46,17 +46,17 @@ set_property IOSTANDARD LVCMOS33 [get_ports enable]
 #                                               #
 #################################################
 
-set_property PACKAGE_PIN W7 [get_ports hex0_a]					
+set_property PACKAGE_PIN W7 [get_ports hex0_a]
 set_property IOSTANDARD LVCMOS33 [get_ports hex0_a]
-set_property PACKAGE_PIN W6 [get_ports hex0_b]					
+set_property PACKAGE_PIN W6 [get_ports hex0_b]
 set_property IOSTANDARD LVCMOS33 [get_ports hex0_b]
-set_property PACKAGE_PIN U8 [get_ports hex0_c]					
+set_property PACKAGE_PIN U8 [get_ports hex0_c]
 set_property IOSTANDARD LVCMOS33 [get_ports hex0_c]
-set_property PACKAGE_PIN V8 [get_ports hex0_d]					
+set_property PACKAGE_PIN V8 [get_ports hex0_d]
 set_property IOSTANDARD LVCMOS33 [get_ports hex0_d]
-set_property PACKAGE_PIN U5 [get_ports hex0_e]					
+set_property PACKAGE_PIN U5 [get_ports hex0_e]
 set_property IOSTANDARD LVCMOS33 [get_ports hex0_e]
-set_property PACKAGE_PIN V5 [get_ports hex0_f]					
+set_property PACKAGE_PIN V5 [get_ports hex0_f]
 set_property IOSTANDARD LVCMOS33 [get_ports hex0_f]
-set_property PACKAGE_PIN U7 [get_ports hex0_g}]					
+set_property PACKAGE_PIN U7 [get_ports hex0_g]
 set_property IOSTANDARD LVCMOS33 [get_ports hex0_g]
